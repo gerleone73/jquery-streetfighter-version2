@@ -1,7 +1,5 @@
-
-
-
-  $('.ryu').mouseenter(function() {
+$(document).ready(function() {
+    $('.ryu').mouseenter(function() {
     $('.ryu-still').hide();
     $('.ryu-cool').hide(); 
     $('.ryu-ready').show();
@@ -23,9 +21,9 @@
     $('.ryu-ready').hide();
         $('.ryu-still').show(); 
         $('.ryu-cool').hide(); 
-})
+  })
  
-$(document).keydown(function(e) {
+.keydown(function(e) {
 
     var keycode = (event.which);
     if (e.which == "32") {
