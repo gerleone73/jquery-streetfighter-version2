@@ -26,7 +26,7 @@ $(document).ready(function() {
       $ryu.attr('class', 'ryu-ready');
        })
 
-   .keydown(function(e) {
+   $(document).keydown(function(e) {
 
        var keycode = (event.which);
     if(keycode == '88'){
